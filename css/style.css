@@ -1,0 +1,263 @@
+
+body{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-size: 100%;
+    font-family:'Cormorant Garamond';
+}
+
+
+/* PAGE ACCUEIL*/
+
+a{text-decoration: none; color: black;}
+/* HEADER*/
+.header{
+    width: 100%;
+  
+}
+.nav{
+    display: flex;
+   
+}
+.menu {
+    display: flex;
+    margin-left: 44%;
+    margin-top: -74px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+ul li{
+    list-style: none;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: right;
+    
+}
+hr {
+    box-shadow: 13px -9px 6px #cc9966;
+    margin-top: 30px;
+}
+ 
+/* MAIN */
+/* Bienvenue chez medimancie */
+.profil_1 {
+    display: flex;
+    margin-left: 37%;
+    margin-top: 75px;
+}
+.titre_bienvenue {
+    display: flex;
+    margin-left: 24%;
+    margin-top: 18px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 19px;
+    color: #316594;
+}
+.texte_bienvenue {
+    display: flex;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    color: #000000;
+    margin-left: 24%;
+}
+/* C'est quoi medimancie ? */
+.titre_cestquoi_medimancie {
+    display: flex;
+    margin-left: 35%;
+    margin-top: 46px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 19px;
+    color: #FF4F04;
+}
+
+.texte_cestquoi_medimancie{
+    display: flex;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+    color: #000000;
+    margin-left: 23%;
+}
+
+.fleche {
+    display: flex;
+    margin-left: 80%;
+    margin-top: 142px;
+}
+/* FOOTER */
+.logos_contacts {
+    display: flex;
+    margin-left: 20%;
+    margin-top: 136px;
+}
+.footer {
+    display: flex;
+    background-color: #CC9966;
+    font-size: larger;
+    margin-top: 131px;
+}
+.footer_ecriture{
+    color: #FFF;
+}
+
+
+
+
+
+
+/* PAGE ARTICLE : MEDITATION  */
+
+/* MAIN*/
+/* Banniere titre */
+.titre_medi_demedimancie{
+    display: block;
+    background-image: url("../img/banniere.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 61px;
+}
+.lamedi{
+    font-family: 'Permanent Marker', cursive;
+    color: #FFF;
+    text-align: center;
+    padding: 77px;
+}
+.profil_2 {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 75px;
+}
+
+/* SECTION ARTICLE */
+.article_meditation {
+    /* display: flex;  NON Sinon cela créer des boite de texte */ 
+    margin-left: 43%;
+    margin-top: -265px;
+    width: 46%;
+}
+.titres_meditation_bleu{
+    text-align: left;
+    color: #316594;
+    font-family: 'Permanent Marker', cursive;
+}
+.titres_meditation_orange{
+    text-align: left;
+    color: #FF6633;
+    font-family: 'Permanent Marker', cursive; 
+}
+/* LIEN BAS DE PAGE DE MEDITATION VERS SEANCES A FAIRE ? */
+.lien_les_seances_endetail{
+    display: flex;
+    margin-left: 50%;
+    margin-top: 50px;
+    color: #663300;
+}
+
+
+
+/* PAGE ARTICLE : MANCIE */
+/* MAIN*/
+/* Banniere titre */
+.titre_mancie_demedimancie{
+    display: block;
+    background-image: url("../img/banniere.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 61px;
+}
+.lamancie{
+    font-family: 'Permanent Marker', cursive;
+    color: #FFF;
+    text-align: center;
+    padding: 77px;
+}
+
+
+
+/* PAGE A PROPOS */
+.titre_aproposdemoi {
+    display: flex;
+    font-family: 'Permanent Marker', cursive;
+    color: #663300;
+    margin-top: -200px;
+    margin-left: 4%;
+}
+.profil_1 {
+    display: flex;
+    margin-left: 37%;
+    margin-top: 75px;
+}
+
+/* PAGE SCEANCES  */
+/* ( partie 2 TARIFICATION) */
+.titre_tarification{
+    display: block;
+    background-image: url("../img/banniere.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 61px;
+}
+.tarification{
+    font-family: 'Permanent Marker', cursive;
+    color: #FFF;
+    text-align: center;
+    padding: 77px;
+}
+.profil_3 {
+    display: flex;
+    margin-left: 37%;
+    margin-top: 75px;
+}
+
+
+/* PAGE CONTACT */
+.texte_bonjourmerci {
+    display: flex;
+    font-family: 'Cormorant Garamond';
+    text-align: left;
+    color: #000000;
+    margin-left: 11%;
+    margin-top: 118px;
+}
+.profil_4 {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -247px;
+}
+
+/* PAGE MENTIONS LEGALE */
+.titre_mentionslegale{
+    display: block;
+    background-image: url("../img/banniere.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 61px;
+}
+.mentionslegale{
+    font-family: 'Permanent Marker', cursive;
+    color: #FFF;
+    text-align: center;
+    padding: 77px;
+}
+
+
+
+/* PAGE CGV */
+.titre_cgv{
+    display: block;
+    background-image: url("../img/banniere.jpg");
+    width: 100%;
+    height: 200px;
+    margin-top: 61px;
+}
+.cgv{
+    font-family: 'Permanent Marker', cursive;
+    color: #FFF;
+    text-align: center;
+    padding: 77px;
+}
