@@ -1,51 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <title>Mentions Légale</title>
-</head>
-<body>
-    <header>
-<!--HEADER-->
-        
-<nav id="fleche">
-    <a href="#logo"><img src="img/LOGO.jpg" alt="Logo Medimancie"></i></a>
-
-
-<div class="menu">
-    <ul>
-        <li><a href="#meditation">Meditation</a></li>
-        <li><a href="#mancie">Mancie</a></li>
-        <li><a href="#apropos">A propos</a></li>
-        <li><a href="#seances">Scéances</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</div>
-</nav>
-<hr size="0.6" width="100%" color="CC9966">
-
-<!--header responsive à faire !-->
-<!-- <div class="menu_deroulant"><img src="img/BURGER MENU.jpg" alt="Menu déroulante"></div>
-<div class="menu_hidden">
-    <ul>
-        
-        <li><a href="#meditation">Meditation</a></li>
-        <li><a href="#oracle">Oracle</a></li>
-        <li><a href="#apropos">A propos</a></li>
-        <li><a href="#Scéances">Scéances</a></li>
-        <li><a href="#Contact">Contact</a></li>
-    </ul>
-</div> -->
-
-</div>
-    </header>
-
+<?php include('inc/haut.inc.php'); ?>
     <main>
         <div class="titre_mentionslegales">
             <h1 class="mentionslegales">Mentions Légales et politique de confidentialité</h1>
@@ -299,52 +252,12 @@
 
 
         
-    </Div>
+    
     <div class="fleche">
      <a href="#fleche"><img src="img/Flèche orange.jpg" alt="Flèche de navigatiopn"></a>
     </div>
     </main>
 
 
-    <footer>
-<!--FOOTER-->
-            <!--Les logos de tous les moyens de contacter medimancie-->
-            <!-- A faire ! Liens vers page contact ? OU apparition fênètre renseignement ?-->
-        <footer>
-            <div class="logos_contacts">
-                <ul>
-                 <li><a href="#adresse"><img src="img/Logo Adresse du site.jpg" alt="Adresse postale de Medimancie"></a></li>   
-                 <li><a href="https://www.tiktok.com/@medimancie"><img src="img/tiktok.jpg" alt="Logo lien chaîne TikTok de Medimancie"></a></li>
-                 <Li><a href="#mail"><img src="img/Logo Email du site.jpg" alt="Logo adresse email de medimancie"></a></Li>
-                 <li><a href="https://www.youtube.com/@medimancie"><img src="img/youtube.jpg" alt="Logo lien chaîne YouTube de Medimancie"></a></li>   
-                 <Li><a href="#telephone"><img src="img/Logo Téléphone du site.jpg" alt="Logo numero de téléphone de Medimancie"></a></Li>  
-                </ul>
-            </div>
-
-            
-            <!--FOOTER Responsive à faire !-->
-            <!-- <div class="logos_contacts_hidden">
-                <ul>
-                    <li><a href="#adresse"><img src="img/Logo Adresse du site.jpg" alt="Adresse postale de Medimancie"></a></li>   
-                    <li><a href="#tiktok"><img src="img/tiktok.png" alt="Logo lien chaîne TikTok de Medimancie"></a></li>
-                    <Li><a href="#mail"><img src="" alt="Logo adresse email de medimancie"></a></Li>
-                    <li><a href="#youtube"><img src="" alt="Logo lien chaîne YouTube de Medimancie"></a></li>   
-                    <Li><a href="#telephone"><img src="" alt="Logo numero de téléphone de Medimancie"></a></Li>  
-                   </ul>
-                </div> -->
-
-            <Div class="footer">
-             <ul class="footer_ecriture" >
-                <li>Copyright Medimancie</li>
-                <li><a href="#mentionlegal"></a>Mentions Légales et politique de confidentialité</li>
-                <li><a href="#cdg"></a>Conditions Générales de Vente</li>
-             </ul>
-            </Div>
-    </footer>
     
-
-
-    <script src="js/jquery-3.6.3.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
+    <?php include('inc/bas.inc.php'); ?>

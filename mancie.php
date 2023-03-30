@@ -1,50 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <title>Mancie</title>
-</head>
-<body>
-    <header>
-<!--HEADER-->
-        
-<nav id="fleche">
-    <a href="#logo"><img src="img/LOGO.jpg" alt="Logo Medimancie"></i></a>
-
-
-<div class="menu">
-    <ul>
-        <li><a href="#meditation">Meditation</a></li>
-        <li><a href="#mancie">Mancie</a></li>
-        <li><a href="#apropos">A propos</a></li>
-        <li><a href="#seances">Scéances</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</div>
-</nav>
-<hr size="0.6" width="100%" color="CC9966">
-
-<!--header responsive à faire !-->
-<!-- <div class="menu_deroulant"><img src="img/BURGER MENU.jpg" alt="Menu déroulante"></div>
-<div class="menu_hidden">
-    <ul>
-        
-        <li><a href="#meditation">Meditation</a></li>
-        <li><a href="#oracle">Oracle</a></li>
-        <li><a href="#apropos">A propos</a></li>
-        <li><a href="#Scéances">Scéances</a></li>
-        <li><a href="#Contact">Contact</a></li>
-    </ul>
-</div> -->
-
-</div>
-    </header>
+<?php include('inc/haut.inc.php'); ?>
 
     <main>
         <div class="titre_mancie_demedimancie">
@@ -52,7 +6,7 @@
          </div>
 
          <Div class="profil_2">
-            <a href="#logo_photo_profil"><img src="img/Logo photo profil.jpg" alt="Logo photo de profil de Medimancie"></i></a>
+            <a href="index.html"><img src="img/Logo photo profil.jpg" alt="Logo photo de profil de Medimancie"></i></a>
                 </Div>
                 
           <section class="article_mancie">
@@ -77,8 +31,10 @@
                     Il nous enracine dans la réalité présente vous encourage à grandir et nourrit votre connaissance <br>
                     de soi. Lorsque les choses ne fonctionnent pas cela vous ouvre un espace pour sortir du trajet,<br>
                     sortir de l'ornière et choisir votre propre direction. Et surtout, c'est un canal ouvert et fluide <br>
-                    pour la vérité.
+                    pour la vérité. <br>
+                    <br> Ci dessous le livre des transformation nommé Yi King utilisé lors des séances.<br>
                 </p>
+             <a href=""><img src="img/Livre Yi King.jpg" alt="le livre du Yi King"></a>   
             <h2 class="titres_mancie_bleu">
                 Que nous apprend l'Oracle du Tao ?
             </h2>
@@ -90,6 +46,7 @@
                     L’oracle du Tao se compose de 64 cartes et d’un livre de 320 pages conçu pour fonctionner <br>
                     en tandem avec les traditions séculaires du Y King et du Tarot.
                 </p>
+                <a href=""><img src="img/Jeu de carte Oracle Tao.jpg" alt=" l'oracle du Tao"></a>
             <h2 class="titres_mancie_orange">
                 Quand on débute ?
             </h2>
@@ -102,7 +59,7 @@
                 </p>
 
                 <!-- LIEN VERS MEDITATION A FAIRE ! -->
-                <a href="#meditation" class="lien_lameditation_chezmedimancie">Lien vers La meditation chez Medimancie</a>
+                <a href="meditation.html" class="lien_lameditation_chezmedimancie">Lien vers La meditation chez Medimancie</a>
 
             <h2 class="titres_mancie_orange">
                 Vous n'êtes pas débutant ?
@@ -118,20 +75,7 @@
                 <!-- LIEN VERS MEDITATION A FAIRE ! -->
                 <a href="#contact" class="lien_contact">Lien vers contact</a>
             
-            <h2 class="titres_mancie_bleu">
-                Que nous apprend l'Oracle du Tao ?
-            </h2>
-            <P>
-                L’oracle du Tao est une nouvelle expression de la sagesse intemporelle du Y King. <br>
-                Il nous rappelle que les lois qui régissent le monde naturel s’appliquent à nous tous. <br>
-                L’oracle du Tao travaille à l’appui de la méditation et de la conscience de soi. <br>
-                L’oracle du Tao se compose de 64 cartes et d’un livre de 320 pages conçu pour fonctionner <br>
-                en tandem avec les traditions séculaires du Y King et du Tarot. <br>
-                <br>
-                Vous souhaitez en savoir pourquoi consulter ?
-            </P>
-                <!-- LIEN VERS POURQUOI CONSULTER VERS LES SEANCES A FAIRE ! -->
-                <a href="#pourquoi_consulter" class="lien_pourquoi_consulter">Lien vers séances</a>
+           
             
             <h2 class="titres_mancie_orange">
                 Pourquoi j'utilise ce jeu de carte ?  
@@ -146,10 +90,11 @@
                 Praticienne en divination et en méditation c’est pour moi un outil de conscience de soi incroyable, <br>
                 beau, bien conçu et à un prix raisonnable. " Cathy <br>
                 <br>
-                Vous souhaitez achetez l’Oracle du Tao et le Livre du Yi King ? 
+                <a href="seances.html#les_oracles_utilisés">Vous souhaitez achetez l’Oracle du Tao et le Livre du Yi King ?</a>
+                 
             </P>
                 <!-- LIEN VERS SEANCES PARTIE TARIFICATION POUR OFFRE Y KING ET ORACLE TAO A FAIRE ! -->
-                <a href="#offres" class="lien_offres">Lien vers séances</a>
+                <a href="seances.html" class="lien_offres">Lien vers séances</a>
             
 
           </section>      
@@ -157,52 +102,11 @@
 
 
         
-    </Div>
+   
     <div class="fleche">
      <a href="#fleche"><img src="img/Flèche orange.jpg" alt="Flèche de navigatiopn"></a>
     </div>
     </main>
 
 
-    <footer>
-<!--FOOTER-->
-            <!--Les logos de tous les moyens de contacter medimancie-->
-            <!-- A faire ! Liens vers page contact ? OU apparition fênètre renseignement ?-->
-        <footer>
-            <div class="logos_contacts">
-                <ul>
-                 <li><a href="#adresse"><img src="img/Logo Adresse du site.jpg" alt="Adresse postale de Medimancie"></a></li>   
-                 <li><a href="https://www.tiktok.com/@medimancie"><img src="img/tiktok.jpg" alt="Logo lien chaîne TikTok de Medimancie"></a></li>
-                 <Li><a href="#mail"><img src="img/Logo Email du site.jpg" alt="Logo adresse email de medimancie"></a></Li>
-                 <li><a href="https://www.youtube.com/@medimancie"><img src="img/youtube.jpg" alt="Logo lien chaîne YouTube de Medimancie"></a></li>   
-                 <Li><a href="#telephone"><img src="img/Logo Téléphone du site.jpg" alt="Logo numero de téléphone de Medimancie"></a></Li>  
-                </ul>
-            </div>
-
-            
-            <!--FOOTER Responsive à faire !-->
-            <!-- <div class="logos_contacts_hidden">
-                <ul>
-                    <li><a href="#adresse"><img src="img/Logo Adresse du site.jpg" alt="Adresse postale de Medimancie"></a></li>   
-                    <li><a href="#tiktok"><img src="img/tiktok.png" alt="Logo lien chaîne TikTok de Medimancie"></a></li>
-                    <Li><a href="#mail"><img src="" alt="Logo adresse email de medimancie"></a></Li>
-                    <li><a href="#youtube"><img src="" alt="Logo lien chaîne YouTube de Medimancie"></a></li>   
-                    <Li><a href="#telephone"><img src="" alt="Logo numero de téléphone de Medimancie"></a></Li>  
-                   </ul>
-                </div> -->
-
-            <Div class="footer">
-             <ul class="footer_ecriture" >
-                <li>Copyright Medimancie</li>
-                <li><a href="#mentionlegal"></a>Mentions Légales et politique de confidentialité</li>
-                <li><a href="#cdg"></a>Conditions Générales de Vente</li>
-             </ul>
-            </Div>
-    </footer>
-    
-
-
-    <script src="js/jquery-3.6.3.js"></script>
-    <script src="js/app.js"></script>
-</body>
-</html>
+    <?php include('inc/bas.inc.php'); ?>
